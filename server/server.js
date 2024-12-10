@@ -1,7 +1,7 @@
 const dotenv = require("dotenv").config();
 const express = require("express");
 const { errorHandler } = require("./middleware/errorHandler");
-// const path = require("path");
+const path = require("path");
 const app = express();
 const connectDB = require("./config/db");
 const roomRoutes = require("./routes/roomRoutes");
@@ -31,6 +31,7 @@ if (process.env.NODE_ENV === "production") {
   app.get("*", (req, res) => {
     return res.sendFile(filePath);
   });
+
 }
 
 app.use(errorHandler);

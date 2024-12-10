@@ -42,7 +42,7 @@ GET http://localhost:5000/api/bookings
 
 # get single booking
 ###
-GET http://localhost:5000/api/bookings/6732da92960e3a57434e7ac9
+GET http://localhost:5000/api/bookings/673c2db8aae7cc1a5c28baa7
 
 
 #create booking
@@ -84,7 +84,7 @@ POST http://localhost:5000/api/users
 Content-Type: application/json
 
 {
-    "name": "Avnish  Yadav",
+    "name": "Avnish Yadav",
     "email": "avnishyadav@gmail.com",
     "password": "password"
 }

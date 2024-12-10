@@ -1,20 +1,20 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "./bookingList.styles.scss"; // Import the CSS file for styling
 
 const BookingList = ({ data }) => {
   // Sample data for demonstration
-  //   const data = [
-  //     { id: 1, name: "John Doe", email: "john@example.com", room: "101" },
-  //     { id: 2, name: "Jane Doe", email: "jane@example.com", room: "102" },
-  //     // Add more data as needed
-  //   ];
+    // const data = [
+    //   { id: 1, name: "John Doe", email: "john@example.com", room: "101" },
+    //   { id: 2, name: "Jane Doe", email: "jane@example.com", room: "102" },
+      // Add more data as needed
+    // ];
 
   // Function to handle actions (e.g., edit, delete)
-  const handleAction = (id, action) => {
+  // const handleAction = (id, action) => {
     // Implement action logic here
-    console.log(`${action} user with ID ${id}`);
-  };
+    // console.log(`${action} user with ID ${id}`);
+  // };
 
   return (
     <div className="container">
